@@ -86,7 +86,7 @@ class TV:
 
                 self._volumen += 1
 
-    def volumenUp(self):
+    def volumenDown(self):
 
         if(self._estado):
 
