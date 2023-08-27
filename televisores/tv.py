@@ -101,8 +101,8 @@ class TV:
     def getNumTV(cls):
         return cls._numTV
     
-    def setNumTV(cls, numTV):
-        cls._numTV = numTV
+    def setNumTV(num):
+        TV._numTV = num
     
     def AumentarTV(cls):
         cls._numTV += 1
