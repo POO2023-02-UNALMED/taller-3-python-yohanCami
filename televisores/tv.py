@@ -9,7 +9,7 @@ class TV:
         self._precio = 500
         self._estado = estado
         self._volumen = 1
-        self._control
+        self._control = None
 
         self.AumentarTV()
 
